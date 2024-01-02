@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "./EmptyChat.scss"
 
 const EmptyChat = () => {
   return (
-    <div>EmptyChat</div>
+    <div className='emptychat'>
+      <div className='emptychat__wrapper'>
+         <span>Select a chat to start messaging</span>
+      </div>
+    </div>
   )
 }
 
