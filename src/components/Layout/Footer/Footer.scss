@@ -1,0 +1,46 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  .footer__container {
+    form {
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      border-top: 1px solid #d5d5d8;
+      border-bottom: 1px solid #d5d5d8;
+
+      input {
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 50px;
+        padding: 12px;
+        background: none;
+        &::placeholder {
+          font-feature-settings: "clig" off, "liga" off;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 120%;
+          opacity: 0.3;
+        }
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        background: none;
+
+        svg {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}

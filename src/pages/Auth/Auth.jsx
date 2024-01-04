@@ -41,7 +41,7 @@ const Auth = () => {
       <div className="signin__container">
         <h2>Sign in</h2>
         {signinPossibleError && (
-          <p style={{ color: "red", marginTop: "10px" }}>
+          <p style={{ color: "red", marginTop: "10px", marginBottom: "10px" }}>
             {signinPossibleError}
           </p>
         )}

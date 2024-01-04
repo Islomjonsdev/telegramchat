@@ -27,7 +27,7 @@ const Signup = () => {
       <div className="signup__container">
         <h2>Sign up</h2>
         {possibleError && (
-          <p style={{ color: "red", marginTop: "10px" }}>{possibleError}</p>
+          <p style={{ color: "red", marginTop: "10px", marginBottom: "10px"}}>{possibleError}</p>
         )}
         <form onSubmit={signUpUser}>
           <label>Enter email</label>
